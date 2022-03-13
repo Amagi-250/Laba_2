@@ -59,7 +59,7 @@
     <SolutionPath>C:\Users\ААА\source\repos\LB2_5\LB2_5.sln</SolutionPath>
     <SolutionVersion>16.0</SolutionVersion>
     <PlogVersion>7</PlogVersion>
-    <ModificationDate>2022-03-13T16:31:06.7783612Z</ModificationDate>
+    <ModificationDate>2022-03-13T16:39:41.9122174Z</ModificationDate>
   </Solution_Path>
   <PVS-Studio_Analysis_Log>
     <FavIcon>false</FavIcon>
@@ -82,28 +82,8 @@
   </PVS-Studio_Analysis_Log>
   <PVS-Studio_Analysis_Log>
     <FavIcon>false</FavIcon>
-    <Level>2</Level>
-    <DefaultOrder>2</DefaultOrder>
-    <ErrorCode>V3009</ErrorCode>
-    <Message>It's odd that this method always returns one and the same value of 'false'.</Message>
-    <Project>LB2_5</Project>
-    <ShortFile>Form1.cs</ShortFile>
-    <Line>179</Line>
-    <FalseAlarm>false</FalseAlarm>
-    <File>C:\Users\ААА\source\repos\LB2_5\LB2_5\Form1.cs</File>
-    <CodePrev>113</CodePrev>
-    <CodeCurrent>2867284918</CodeCurrent>
-    <CodeNext>123</CodeNext>
-    <TrialMessage>false</TrialMessage>
-    <Analyzer>4</Analyzer>
-    <Retired>false</Retired>
-    <AnalyzedSourceFiles />
-    <CWECode>CWE-393</CWECode>
-  </PVS-Studio_Analysis_Log>
-  <PVS-Studio_Analysis_Log>
-    <FavIcon>false</FavIcon>
     <Level>1</Level>
-    <DefaultOrder>3</DefaultOrder>
+    <DefaultOrder>2</DefaultOrder>
     <ErrorCode>V3064</ErrorCode>
     <Message>Division by zero. Denominator '0' is equal to zero.</Message>
     <Project>LB2_5</Project>
@@ -123,7 +103,7 @@
   <PVS-Studio_Analysis_Log>
     <FavIcon>false</FavIcon>
     <Level>1</Level>
-    <DefaultOrder>4</DefaultOrder>
+    <DefaultOrder>3</DefaultOrder>
     <ErrorCode>V3021</ErrorCode>
     <Message>There are two 'if' statements with identical conditional expressions. The first 'if' statement contains method return. This means that the second 'if' statement is senseless</Message>
     <Project>LB2_5</Project>
@@ -146,7 +126,7 @@
   <PVS-Studio_Analysis_Log>
     <FavIcon>false</FavIcon>
     <Level>1</Level>
-    <DefaultOrder>5</DefaultOrder>
+    <DefaultOrder>4</DefaultOrder>
     <ErrorCode>V3001</ErrorCode>
     <Message>There are identical sub-expressions '_isPointXValid' to the left and to the right of the '&amp;&amp;' operator.</Message>
     <Project>LB2_5</Project>

@@ -244,8 +244,6 @@ namespace LB2_5
             bool _isPointYValid;
             if (colorDialog1.ShowDialog() == DialogResult.Cancel)
                 return;
-            if (colorDialog1.ShowDialog() == DialogResult.Cancel)
-            { }
             color = colorDialog1.Color;
             button5.BackColor = color;
             bool isPointValid()
