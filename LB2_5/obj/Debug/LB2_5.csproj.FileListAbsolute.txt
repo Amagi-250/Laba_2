@@ -1,0 +1,9 @@
+C:\Users\ААА\source\repos\LB2_5\LB2_5\bin\Debug\LB2_5.exe
+C:\Users\ААА\source\repos\LB2_5\LB2_5\bin\Debug\LB2_5.pdb
+C:\Users\ААА\source\repos\LB2_5\LB2_5\obj\Debug\LB2_5.csprojAssemblyReference.cache
+C:\Users\ААА\source\repos\LB2_5\LB2_5\obj\Debug\LB2_5.Form1.resources
+C:\Users\ААА\source\repos\LB2_5\LB2_5\obj\Debug\LB2_5.Properties.Resources.resources
+C:\Users\ААА\source\repos\LB2_5\LB2_5\obj\Debug\LB2_5.csproj.GenerateResource.cache
+C:\Users\ААА\source\repos\LB2_5\LB2_5\obj\Debug\LB2_5.csproj.CoreCompileInputs.cache
+C:\Users\ААА\source\repos\LB2_5\LB2_5\obj\Debug\LB2_5.exe
+C:\Users\ААА\source\repos\LB2_5\LB2_5\obj\Debug\LB2_5.pdb
