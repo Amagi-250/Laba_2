@@ -59,7 +59,7 @@
     <SolutionPath>C:\Users\ААА\source\repos\LB2_5\LB2_5.sln</SolutionPath>
     <SolutionVersion>16.0</SolutionVersion>
     <PlogVersion>7</PlogVersion>
-    <ModificationDate>2022-03-13T16:39:41.9122174Z</ModificationDate>
+    <ModificationDate>2022-03-13T16:47:20.4792796Z</ModificationDate>
   </Solution_Path>
   <PVS-Studio_Analysis_Log>
     <FavIcon>false</FavIcon>
@@ -84,31 +84,11 @@
     <FavIcon>false</FavIcon>
     <Level>1</Level>
     <DefaultOrder>2</DefaultOrder>
-    <ErrorCode>V3064</ErrorCode>
-    <Message>Division by zero. Denominator '0' is equal to zero.</Message>
-    <Project>LB2_5</Project>
-    <ShortFile>Form1.cs</ShortFile>
-    <Line>212</Line>
-    <FalseAlarm>false</FalseAlarm>
-    <File>C:\Users\ААА\source\repos\LB2_5\LB2_5\Form1.cs</File>
-    <CodePrev>1999</CodePrev>
-    <CodeCurrent>4023</CodeCurrent>
-    <CodeNext>992099</CodeNext>
-    <TrialMessage>false</TrialMessage>
-    <Analyzer>4</Analyzer>
-    <Retired>false</Retired>
-    <AnalyzedSourceFiles />
-    <CWECode>CWE-369</CWECode>
-  </PVS-Studio_Analysis_Log>
-  <PVS-Studio_Analysis_Log>
-    <FavIcon>false</FavIcon>
-    <Level>1</Level>
-    <DefaultOrder>3</DefaultOrder>
     <ErrorCode>V3021</ErrorCode>
     <Message>There are two 'if' statements with identical conditional expressions. The first 'if' statement contains method return. This means that the second 'if' statement is senseless</Message>
     <Project>LB2_5</Project>
     <ShortFile>Form1.cs</ShortFile>
-    <Line>246</Line>
+    <Line>245</Line>
     <FalseAlarm>false</FalseAlarm>
     <File>C:\Users\ААА\source\repos\LB2_5\LB2_5\Form1.cs</File>
     <CodePrev>17920679</CodePrev>
@@ -120,26 +100,7 @@
     <AnalyzedSourceFiles />
     <CWECode>CWE-561</CWECode>
     <Positions>
-      <Position lines="246,248">C:\Users\ААА\source\repos\LB2_5\LB2_5\Form1.cs</Position>
+      <Position lines="245,247">C:\Users\ААА\source\repos\LB2_5\LB2_5\Form1.cs</Position>
     </Positions>
-  </PVS-Studio_Analysis_Log>
-  <PVS-Studio_Analysis_Log>
-    <FavIcon>false</FavIcon>
-    <Level>1</Level>
-    <DefaultOrder>4</DefaultOrder>
-    <ErrorCode>V3001</ErrorCode>
-    <Message>There are identical sub-expressions '_isPointXValid' to the left and to the right of the '&amp;&amp;' operator.</Message>
-    <Project>LB2_5</Project>
-    <ShortFile>Form1.cs</ShortFile>
-    <Line>254</Line>
-    <FalseAlarm>false</FalseAlarm>
-    <File>C:\Users\ААА\source\repos\LB2_5\LB2_5\Form1.cs</File>
-    <CodePrev>123</CodePrev>
-    <CodeCurrent>1928820622</CodeCurrent>
-    <CodeNext>193</CodeNext>
-    <TrialMessage>false</TrialMessage>
-    <Analyzer>4</Analyzer>
-    <Retired>false</Retired>
-    <AnalyzedSourceFiles />
   </PVS-Studio_Analysis_Log>
 </NewDataSet>

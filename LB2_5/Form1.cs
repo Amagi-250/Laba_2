@@ -248,7 +248,7 @@ namespace LB2_5
             button5.BackColor = color;
             bool isPointValid()
             {
-                return _isPointXValid && _isPointXValid;
+                return _isPointXValid && _isPointYValid;
             };
         }
     }
