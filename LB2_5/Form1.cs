@@ -209,9 +209,8 @@ namespace LB2_5
                     int x, y, z;
                     x = x3;
                     y = y4;
-                    z = x / 0;
                     x = x > e.X ? e.X : x;
-                    y = z > e.Y ? e.Y : y;
+                    y = y > e.Y ? e.Y : y;
                     g1.Clear(Color.White);
                     g1.DrawRectangle(p, x, y, Math.Abs(e.X - x3), Math.Abs(e.Y - y4));
                     if (checkBox1.Checked)
@@ -219,6 +218,7 @@ namespace LB2_5
                         SolidBrush myBrush = new SolidBrush(button5.BackColor);
                         g1.FillRectangle(myBrush, x, y, Math.Abs(e.X - x3), Math.Abs(e.Y - y4));
                     }
+
                 }
 
                  g1.DrawImage(picture, 0, 0);
@@ -231,7 +231,8 @@ namespace LB2_5
                         g1.DrawLine(p, x1, y1, e.X, e.Y);
                     }
                 }
-                return false;              
+                return false;
+                
             }
             return true;
         }
