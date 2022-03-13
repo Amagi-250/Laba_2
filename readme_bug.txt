@@ -1,0 +1,1 @@
+copy con readme bug.txt

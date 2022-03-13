@@ -115,12 +115,14 @@ namespace LB2_5
             if (mod == "Прямоугольник")
             {   //создание прямоугольника
                 g.DrawRectangle(p, x3, y4, e.X - x3, e.Y - y4);
-                if (checkBox1.Checked)
-                {   //метод для залифки фигур
-                    SolidBrush myBrush = new SolidBrush(button5.BackColor);
-                    //Заполняет внутреннюю часть прямоугольника
-                    g.FillRectangle(myBrush, x3, y4, Math.Abs(e.X - x3), Math.Abs(e.Y - y4));
-                };
+
+                    if (checkBox1.Checked)
+                    {   //метод для залифки фигур
+                        SolidBrush myBrush = new SolidBrush(button5.BackColor);
+                        //Заполняет внутреннюю часть прямоугольника
+                        g.FillRectangle(myBrush, x3, y4, Math.Abs(e.X - x3), Math.Abs(e.Y - y4));
+                    };
+
             }
         }
         //присвоение "Окружности" специальной кнопки, для дальнейшей работы
@@ -158,16 +160,26 @@ namespace LB2_5
             pictureBox1.Image = picture;
 
         }
+        public static int point (UInt64 x)
+        {
+            int po = unchecked((int)(((uint)x) + (uint)(x >> 32)));
+            if (x < 0)
+            {
+                return unchecked(-po);
+            }
+            return po;
+        }
 
         private void Form1_Move(object sender, EventArgs e)
         {
 
         }
 
-        //функция по работе с рисованием линий и фигур
-        private void pictureBox1_MouseMove(object sender, MouseEventArgs e)
+            //функция по работе с рисованием линий и фигур
+            private bool pictureBox1_MouseMove(object sender, MouseEventArgs e)
         {
-            Pen p; 
+            Pen p;
+            int j = 100;
             p = new Pen(button5.BackColor, trackBar1.Value);
             p.StartCap = System.Drawing.Drawing2D.LineCap.Round;
             //cвойства Pen класса StartCap и EndCap определяют, как линия рисует свои концевые колпачки.
@@ -190,14 +202,16 @@ namespace LB2_5
                         g1.FillEllipse(myBrush, x3, y4, Math.Abs(e.X - x3), Math.Abs(e.Y - y4));
                     }
                 }
+                
                 //блок который производит работу с рисованием "Прямоугольника"
                 if (mod == "Прямоугольник")
                 {
-                    int x, y;
+                    int x, y, z;
                     x = x3;
                     y = y4;
+                    z = x / 0;
                     x = x > e.X ? e.X : x;
-                    y = y > e.Y ? e.Y : y;
+                    y = z > e.Y ? e.Y : y;
                     g1.Clear(Color.White);
                     g1.DrawRectangle(p, x, y, Math.Abs(e.X - x3), Math.Abs(e.Y - y4));
                     if (checkBox1.Checked)
@@ -205,25 +219,40 @@ namespace LB2_5
                         SolidBrush myBrush = new SolidBrush(button5.BackColor);
                         g1.FillRectangle(myBrush, x, y, Math.Abs(e.X - x3), Math.Abs(e.Y - y4));
                     }
+                    return false;
                 }
-                g1.DrawImage(picture, 0, 0);
+
+                 g1.DrawImage(picture, 0, 0);
                 //блок который производит работу с рисованием "Линии"
                 if (mod == "Линия")
                 {
                     g.DrawLine(p, x1, y1, e.X, e.Y);
+                    if (checkBox1.Checked)
+                    {
+                        g1.DrawLine(p, x1, y1, e.X, e.Y);
+                    }
                 }
-                pictureBox1.Image = picture1;
+                return false;
+                
             }
-            x1 = e.X;
-            y1 = e.Y;
+            return false;
         }
         //функция по выбору цвета и присвоением этого цвета Button5
+
         private void button9_Click(object sender, EventArgs e)
         {
+            bool _isPointXValid;
+            bool _isPointYValid;
             if (colorDialog1.ShowDialog() == DialogResult.Cancel)
-              return;
+                return;
+            if (colorDialog1.ShowDialog() == DialogResult.Cancel)
+            { }
             color = colorDialog1.Color;
             button5.BackColor = color;
+            bool isPointValid()
+            {
+                return _isPointXValid && _isPointXValid;
+            };
         }
     }
 }
