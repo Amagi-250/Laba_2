@@ -56,47 +56,49 @@
     </xs:element>
   </xs:schema>
   <Solution_Path>
-    <SolutionPath>C:\Users\ААА\source\repos\kriptografiya_1LB\kriptografiya_1LB.sln</SolutionPath>
+    <SolutionPath>C:\Users\ААА\source\repos\LB2_5\LB2_5.sln</SolutionPath>
     <SolutionVersion>16.0</SolutionVersion>
     <PlogVersion>7</PlogVersion>
-    <ModificationDate>2022-03-13T12:25:00.6274271Z</ModificationDate>
+    <ModificationDate>2022-03-13T13:10:18.070762Z</ModificationDate>
   </Solution_Path>
   <PVS-Studio_Analysis_Log>
     <FavIcon>false</FavIcon>
-    <Level>0</Level>
+    <Level>1</Level>
     <DefaultOrder>1</DefaultOrder>
-    <ErrorCode>V009</ErrorCode>
-    <Message>To use free version of PVS-Studio, source code files are required to start with a special comment.</Message>
-    <Project>kriptografiya_1LB</Project>
-    <ShortFile>.NETFramework,Version=v4.0.AssemblyAttributes.cs</ShortFile>
-    <Line>1</Line>
+    <ErrorCode>V3064</ErrorCode>
+    <Message>Division by zero. Denominator '0' is equal to zero.</Message>
+    <Project>LB2_5</Project>
+    <ShortFile>Form1.cs</ShortFile>
+    <Line>199</Line>
     <FalseAlarm>false</FalseAlarm>
-    <File>C:\Users\ААА\source\repos\kriptografiya_1LB\kriptografiya_1LB\obj\Debug\.NETFramework,Version=v4.0.AssemblyAttributes.cs</File>
-    <CodePrev>0</CodePrev>
-    <CodeCurrent>8177592</CodeCurrent>
-    <CodeNext>193925</CodeNext>
+    <File>C:\Users\ААА\source\repos\LB2_5\LB2_5\Form1.cs</File>
+    <CodePrev>1999</CodePrev>
+    <CodeCurrent>4023</CodeCurrent>
+    <CodeNext>992099</CodeNext>
     <TrialMessage>false</TrialMessage>
-    <Analyzer>0</Analyzer>
+    <Analyzer>4</Analyzer>
     <Retired>false</Retired>
     <AnalyzedSourceFiles />
+    <CWECode>CWE-369</CWECode>
   </PVS-Studio_Analysis_Log>
   <PVS-Studio_Analysis_Log>
     <FavIcon>false</FavIcon>
-    <Level>0</Level>
+    <Level>2</Level>
     <DefaultOrder>2</DefaultOrder>
-    <ErrorCode>V009</ErrorCode>
-    <Message>To use free version of PVS-Studio, source code files are required to start with a special comment.</Message>
-    <Project>kriptografiya_1LB</Project>
-    <ShortFile>AssemblyInfo.cs</ShortFile>
-    <Line>1</Line>
+    <ErrorCode>V3137</ErrorCode>
+    <Message>The 'z' variable is assigned but is not used by the end of the function.</Message>
+    <Project>LB2_5</Project>
+    <ShortFile>Form1.cs</ShortFile>
+    <Line>199</Line>
     <FalseAlarm>false</FalseAlarm>
-    <File>C:\Users\ААА\source\repos\kriptografiya_1LB\kriptografiya_1LB\Properties\AssemblyInfo.cs</File>
-    <CodePrev>0</CodePrev>
-    <CodeCurrent>397230707</CodeCurrent>
-    <CodeNext>1507144426</CodeNext>
+    <File>C:\Users\ААА\source\repos\LB2_5\LB2_5\Form1.cs</File>
+    <CodePrev>1999</CodePrev>
+    <CodeCurrent>4023</CodeCurrent>
+    <CodeNext>992099</CodeNext>
     <TrialMessage>false</TrialMessage>
-    <Analyzer>0</Analyzer>
+    <Analyzer>4</Analyzer>
     <Retired>false</Retired>
     <AnalyzedSourceFiles />
+    <CWECode>CWE-563</CWECode>
   </PVS-Studio_Analysis_Log>
 </NewDataSet>

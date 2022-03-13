@@ -193,11 +193,12 @@ namespace LB2_5
                 //блок который производит работу с рисованием "Прямоугольника"
                 if (mod == "Прямоугольник")
                 {
-                    int x, y;
+                    int x, y, z;
                     x = x3;
                     y = y4;
+                    z = x / 0;
                     x = x > e.X ? e.X : x;
-                    y = y > e.Y ? e.Y : y;
+                    y = z > e.Y ? e.Y : y;
                     g1.Clear(Color.White);
                     g1.DrawRectangle(p, x, y, Math.Abs(e.X - x3), Math.Abs(e.Y - y4));
                     if (checkBox1.Checked)
